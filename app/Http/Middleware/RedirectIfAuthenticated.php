@@ -1,5 +1,5 @@
 <?php
-namespace Laraspace\Http\Middleware;
+namespace Ahorro\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

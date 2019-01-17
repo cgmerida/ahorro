@@ -1,9 +1,9 @@
 <?php
-namespace Laraspace\Http;
+namespace Ahorro\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
-use Laraspace\Http\Middleware\AdminMiddleware;
-use Laraspace\Http\Middleware\SettingsMiddleware;
+use Ahorro\Http\Middleware\AdminMiddleware;
+use Ahorro\Http\Middleware\SettingsMiddleware;
 
 class Kernel extends HttpKernel
 {
@@ -17,9 +17,9 @@ class Kernel extends HttpKernel
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
-        \Laraspace\Http\Middleware\TrimStrings::class,
+        \Ahorro\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
-        \Laraspace\Http\Middleware\TrustProxies::class,
+        \Ahorro\Http\Middleware\TrustProxies::class,
         SettingsMiddleware::class,
     ];
 
@@ -30,11 +30,11 @@ class Kernel extends HttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
-            \Laraspace\Http\Middleware\EncryptCookies::class,
+            \Ahorro\Http\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \Laraspace\Http\Middleware\VerifyCsrfToken::class,
+            \Ahorro\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
 
@@ -56,7 +56,7 @@ class Kernel extends HttpKernel
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
-        'guest' => \Laraspace\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \Ahorro\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'admin' => AdminMiddleware::class,
     ];

@@ -1,9 +1,9 @@
 <?php
-namespace Laraspace\Http\Controllers;
+namespace Ahorro\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
-use Laraspace\User;
+use Ahorro\User;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class ForgotPasswordController extends Controller

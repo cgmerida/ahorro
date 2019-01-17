@@ -1,5 +1,5 @@
 <?php
-namespace Laraspace\Console\Commands;
+namespace Ahorro\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

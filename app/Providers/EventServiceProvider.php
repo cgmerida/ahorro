@@ -1,5 +1,5 @@
 <?php
-namespace Laraspace\Providers;
+namespace Ahorro\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
@@ -11,8 +11,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Laraspace\Events\SomeEvent' => [
-            'Laraspace\Listeners\EventListener',
+        'Ahorro\Events\SomeEvent' => [
+            'Ahorro\Listeners\EventListener',
         ],
     ];
 

@@ -1,5 +1,5 @@
 <?php
-namespace Laraspace\Http\Requests;
+namespace Ahorro\Http\Requests;
 
 class LoginRequest extends Request
 {

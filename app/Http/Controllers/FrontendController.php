@@ -1,5 +1,5 @@
 <?php
-namespace Laraspace\Http\Controllers;
+namespace Ahorro\Http\Controllers;
 
 class FrontendController extends Controller
 {

@@ -1,9 +1,9 @@
 <?php
-namespace Laraspace\Http\Controllers;
+namespace Ahorro\Http\Controllers;
 
 use Auth;
-use Laraspace\Http\Requests;
-use Laraspace\User;
+use Ahorro\Http\Requests;
+use Ahorro\User;
 use Socialite;
 
 class AuthController extends Controller
@@ -16,14 +16,14 @@ class AuthController extends Controller
     public function postLogin(Requests\LoginRequest $request)
     {
         if (User::login($request)) {
-            flash()->success('Welcome to Laraspace.');
+            flash()->success('Bienvenido a Ahorro GT.');
             if (Auth::user()->isAdmin()) {
                 return redirect()->to('/admin');
             } else {
                 return redirect()->to('/');
             }
         }
-        flash()->error('Invalid Login Credentials');
+        flash()->error('Usuario o contraseña invalidos.');
         
         return redirect()->back();
     }

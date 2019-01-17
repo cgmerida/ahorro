@@ -1,5 +1,5 @@
 <?php
-namespace Laraspace\Space\Settings;
+namespace Ahorro\Space\Settings;
 
 use Illuminate\Database\Eloquent\Model;
 

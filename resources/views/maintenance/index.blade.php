@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Laraspace - Laravel Admin</title>
+    <title>{{ config('app.name') }} - en mantenimiento</title>
     <script src="{{asset('/assets/admin/js/core/pace.js')}}"></script>
     <link href="{{ mix('/assets/admin/css/laraspace.css') }}" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -26,8 +26,8 @@
         <div class="row">
             <div class="col-sm-12 text-sm-center">
                 <i class="icon-fa icon-fa-cogs icon-fa-lg"></i>
-                <h1>Under Maintenance</h1>
-                <h5>PLEASE GIVE US A MOMENT TO SORT THINGS OUT</h5>
+                <h1>En Mantenimiento</h1>
+                <h5>POR FAVOR DANOS TIEMPO PARA ARREGLAR TODO</h5>
                 
                 <p> Powered by <a href="http://bytefury.com" target="_blank">Bytefury</a> </p>
                 

@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Laraspace',
+    'name' => 'AhorroGT',
 
     /*
     |--------------------------------------------------------------------------
@@ -155,11 +155,11 @@ return [
         /*
          * Application Service Providers...
          */
-        Laraspace\Providers\AppServiceProvider::class,
-        Laraspace\Providers\AuthServiceProvider::class,
-        // Laraspace\Providers\BroadcastServiceProvider::class,
-        Laraspace\Providers\EventServiceProvider::class,
-        Laraspace\Providers\RouteServiceProvider::class,
+        Ahorro\Providers\AppServiceProvider::class,
+        Ahorro\Providers\AuthServiceProvider::class,
+        // Ahorro\Providers\BroadcastServiceProvider::class,
+        Ahorro\Providers\EventServiceProvider::class,
+        Ahorro\Providers\RouteServiceProvider::class,
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,

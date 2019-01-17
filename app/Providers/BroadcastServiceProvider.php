@@ -1,5 +1,5 @@
 <?php
-namespace Laraspace\Providers;
+namespace Ahorro\Providers;
 
 use Illuminate\Support\Facades\Broadcast;
 use Illuminate\Support\ServiceProvider;

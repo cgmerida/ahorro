@@ -1,5 +1,5 @@
 <?php
-use Laraspace\Space\Settings\Setting;
+use Ahorro\Space\Settings\Setting;
 
 function set_active($path, $active = 'active')
 {

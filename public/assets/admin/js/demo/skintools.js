@@ -28,7 +28,7 @@ var SkinTools = (function () {
         $(this).removeClass('active')
       })
 
-      var logoSrc = ($(this).data('logo') == 'white') ? '/assets/admin/img/logo_white.png' : '/assets/admin/img/logo-desk.png'
+      var logoSrc = ($(this).data('logo') == 'white') ? '/assets/admin/img/logo-blanco.png' : '/assets/admin/img/logo-negro.png'
 
       replaceLogo(logoSrc)
 

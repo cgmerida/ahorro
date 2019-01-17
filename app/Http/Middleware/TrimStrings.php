@@ -1,5 +1,5 @@
 <?php
-namespace Laraspace\Http\Middleware;
+namespace Ahorro\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\TrimStrings as Middleware;
 

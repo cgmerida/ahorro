@@ -1,8 +1,8 @@
 <?php
-namespace Laraspace\Http\Controllers;
+namespace Ahorro\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Laraspace\Http\Requests;
+use Ahorro\Http\Requests;
 
 class DashboardController extends Controller
 {

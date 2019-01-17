@@ -1,5 +1,5 @@
 <?php
-namespace Laraspace;
+namespace Ahorro;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;

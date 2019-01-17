@@ -1,5 +1,5 @@
 <?php
-namespace Laraspace\Mail;
+namespace Ahorro\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

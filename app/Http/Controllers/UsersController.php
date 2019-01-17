@@ -1,7 +1,7 @@
 <?php
-namespace Laraspace\Http\Controllers;
+namespace Ahorro\Http\Controllers;
 
-use Laraspace\User;
+use Ahorro\User;
 
 class UsersController extends Controller
 {

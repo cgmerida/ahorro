@@ -31472,8 +31472,7 @@ code, .code {
 }
 
 .brand-main img {
-  height: 25px;
-  padding-top: 6px;
+  height: 40px;
 }
 
 .nav-toggle {
@@ -31564,8 +31563,7 @@ code, .code {
     float: left;
   }
   .brand-main img {
-    height: 32px;
-    padding-top: 4px;
+    height: 40px;
   }
 }
 

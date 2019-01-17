@@ -34,7 +34,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => Laraspace\User::class,
+        'model' => Ahorro\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
